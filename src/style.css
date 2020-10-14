@@ -60,6 +60,8 @@ a#c:hover {
 a#netlify {
   text-align: center;
   font-size: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 span#temp-description {
