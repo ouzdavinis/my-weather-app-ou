@@ -57,6 +57,11 @@ a#c:hover {
   cursor: pointer;
 }
 
+a#netlify {
+  text-align: center;
+  font-size: 8px;
+}
+
 span#temp-description {
   text-transform: capitalize;
 }
