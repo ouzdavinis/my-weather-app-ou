@@ -57,7 +57,7 @@ a#c:hover {
   cursor: pointer;
 }
 
-a#netlify {
+p#netlify {
   text-align: center;
   font-size: 8px;
   display: block;
