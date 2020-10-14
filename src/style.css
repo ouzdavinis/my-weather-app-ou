@@ -1,0 +1,199 @@
+h1 {
+  color: #005086;
+  font-family: "Odibee Sans", cursive;
+  font-size: 72px;
+  font-weight: 800;
+  padding-top: 25px;
+  text-align: center;
+}
+hr {
+  border-top: 3px solid #f7d6bf;
+}
+
+i#weather-icon {
+  align-content: center;
+  color: #fa7d09;
+  display: grid;
+  font-size: 115px;
+  gap: 4px;
+  grid-auto-flow: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: all 200ms ease-in-out;
+}
+input#search-city {
+  border-color: #005086;
+  border-radius: 12px;
+  background-color: transparent;
+  display: block;
+  margin: 15px auto;
+  padding: 4px 8px;
+  text-align: center;
+}
+form#my-location {
+  align-content: center;
+  display: grid;
+  gap: 4px;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+a#f {
+  text-decoration: none;
+  color: #005086;
+  transition: all 200ms ease-in-out;
+}
+a#f:hover {
+  color: #318fb5;
+  cursor: pointer;
+}
+a#c {
+  text-decoration: none;
+  color: #005086;
+  transition: all 200ms ease-in-out;
+}
+a#c:hover {
+  color: #318fb5;
+  cursor: pointer;
+}
+
+span#temp-description {
+  text-transform: capitalize;
+}
+
+.card-deck {
+  max-width: 100%;
+}
+.card-title {
+  font-size: 55px;
+  padding: 0;
+  text-align: left;
+}
+.container {
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-blend-mode: screen;
+  border-radius: 20px;
+  box-shadow: 14px 10px 15px 9px rgba(199, 207, 214, 0.57);
+  max-width: 700px;
+}
+.currentButton {
+  background-color: transparent;
+  font-weight: lighter;
+  border: none;
+  border-radius: 12px;
+  color: #005086;
+  display: block;
+  font-size: 30px;
+  margin: 5px auto;
+  padding: 5px;
+  transition: all 200ms ease-in-out;
+}
+.currentButton:hover {
+  color: #318fb5;
+}
+.degrees {
+  font-size: 45px;
+}
+.locationButton {
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  color: #005086;
+  display: block;
+  font-size: 30px;
+  margin: 5px auto;
+  padding: 5px;
+  transition: all 200ms ease-in-out;
+}
+.forecast {
+  font-size: 15px;
+  text-align: center;
+}
+.forecast i {
+  color: #005086;
+  font-size: 45px;
+  text-align: center;
+}
+.currentButton:hover {
+  color: #318fb5;
+}
+
+.locationButton:hover {
+  color: #318fb5;
+}
+.location-card {
+  color: #005086;
+  font-family: "Odibee Sans", cursive;
+  font-size: 25px;
+  max-width: 100%;
+  padding-left: 55px;
+  width: 350px;
+}
+
+.weatherIconCard {
+  font-family: "Odibee Sans", cursive;
+  font-size: 18px;
+  width: 350px;
+  max-width: 100%;
+  padding: 0 55px;
+  margin-top: 35px;
+  color: #005086;
+}
+
+.text-muted {
+  font-size: 10px;
+}
+
+.card#monday {
+  background-color: transparent;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+
+.card#monday:hover {
+  background-color: rgba(247, 214, 191, 0.55);
+  padding: 3px;
+  cursor: pointer;
+}
+
+.card#tuesday {
+  background-color: transparent;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+.card#tuesday:hover {
+  background-color: rgba(247, 214, 191, 0.55);
+  padding: 3px;
+  cursor: pointer;
+}
+
+.card#wednesday {
+  background-color: transparent;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+.card#wednesday:hover {
+  background-color: rgba(247, 214, 191, 0.55);
+  padding: 3px;
+  cursor: pointer;
+}
+.card#thursday {
+  background-color: transparent;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+.card#thursday:hover {
+  background-color: rgba(247, 214, 191, 0.55);
+  padding: 3px;
+  cursor: pointer;
+}
+.card#friday {
+  background-color: transparent;
+  border: none;
+  transition: all 200ms ease-in-out;
+}
+.card#friday:hover {
+  background-color: rgba(247, 214, 191, 0.55);
+  padding: 3px;
+  cursor: pointer;
+}

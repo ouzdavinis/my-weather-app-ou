@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd704bba06.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Weather</h1>
+        <form class="form-inline" id="my-location">
+            <div class="form-group mb-2">
+                <input type="text" autofocus="on" placeholder="Search City" id="search-city" />
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <button class="locationButton">
+                    <i class="fas fa-search-location"></i>
+                </button>
+                <button class="currentButton">
+                    <i id="current-location" class="fas fa-location-arrow"></i>
+                </button>
+            </div>
+        </form>
+        <div class="location">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="location-card">
+                        <div class="card-body">
+                            <h5 id="searching-city" class="card-title">Wilmington</h5>
+                            <p class="card-text">
+                                <span id="date">Wednesday 3pm</span>
+                                </br>
+                                <span id="temp-description">Clear</span>
+                                </br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="weatherIconCard">
+                        <p class="card-text">
+                            </br>
+                            <span class="degrees">89˚F</span>
+                            <a href="#" id="c">°C</a> |
+                            <a href="#" id="f">°F</a>
+                            </br>
+                            Humidity: <span id="humidity"> 43</span>%
+                            </br>
+                            Wind: <span id="windSpeed">10</span>mph
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="forecast">
+
+            <div class="card-deck">
+                <div class="card" id="monday">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-cloud-sun"></i>
+                            </br>
+                            <small class="text-muted">Monday</br> 67˚|75˚ </small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" id="tuesday">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-cloud-sun-rain"></i>
+                            </br>
+                            <small class="text-muted">Tuesday</br> 56˚|62˚</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" id="wednesday">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-cloud-showers-heavy"></i>
+                            </br>
+                            <small class="text-muted">Wednesday</br> 52˚|59˚
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" id="thursday">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-cloud-sun-rain"></i>
+                            <small class="text-muted">Thursday</br> 62˚|77˚</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" id="friday">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-sun"></i>
+                            </br>
+                            <small class="text-muted">Friday</br> 80˚|89˚</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/index.js"></script>
+
+</script>
+
+</html>
