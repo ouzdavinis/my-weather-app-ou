@@ -1,33 +1,3 @@
-let now = new Date();
-
-let dateCard = document.querySelector("span#date");
-
-let date = now.getDate();
-let hours = now.getHours();
-let minutes = now.getMinutes();
-let year = now.getFullYear();
-
-let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-let day = days[now.getDay()];
-
-let months = [
-  "Jan",
-  "Feb",
-  "March",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
-let month = months[now.getMonth()];
-
-dateCard.innerHTML = `${day}, ${month} ${date} at ${hours}: ${minutes}hrs`;
-
 function searchTemperature(response) {
   let temperature = Math.round(response.data.main.temp);
   let tempertatureElement = document.querySelector("span.degrees");
