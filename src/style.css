@@ -10,6 +10,10 @@ hr {
   border-top: 3px solid #f7d6bf;
 }
 
+h5#searching-city.first-letter {
+  text-transform: capitalize;
+}
+
 i#weather-icon {
   align-content: center;
   color: #fa7d09;
@@ -56,7 +60,9 @@ a#c:hover {
   color: #318fb5;
   cursor: pointer;
 }
-
+div#searching-city {
+  width: 315px;
+}
 p#netlify {
   text-align: center;
   font-size: 8px;
@@ -68,6 +74,10 @@ span#temp-description {
   text-transform: capitalize;
 }
 
+span#date {
+  font-size: 25px;
+}
+
 .card-deck {
   max-width: 100%;
 }
@@ -76,12 +86,13 @@ span#temp-description {
   padding: 0;
   text-align: left;
 }
+
 .container {
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
   background-blend-mode: screen;
   border-radius: 20px;
   box-shadow: 14px 10px 15px 9px rgba(199, 207, 214, 0.57);
-  max-width: 700px;
+  max-width: 600px;
 }
 .currentButton {
   background-color: transparent;
